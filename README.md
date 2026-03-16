@@ -70,9 +70,8 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 ```
 
-**Example MongoDB connection strings:**
+**Example MongoDB-Compass connection strings:**
 - Local MongoDB: `mongodb://localhost:27017/expense-tracker`
-- MongoDB Atlas: `mongodb+srv://username:password@cluster.mongodb.net/expense-tracker?retryWrites=true&w=majority`
 
 **JWT Secret**: Use a strong, random string for production (e.g., generate using `openssl rand -base64 32`)
 
